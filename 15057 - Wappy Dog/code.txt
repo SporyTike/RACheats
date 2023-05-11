@@ -1,4 +1,4 @@
-Force successfull Toy Responds //Clone value of total toy communications (0x2088F56) to total toy responds counter (0x2088F50)
+Force successfull Toy Responds without Toy connection
 D3000000 02088F56
 F2088F50 00000001
 D2000000 00000000
