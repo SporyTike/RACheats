@@ -1,4 +1,4 @@
-Master
+Master Code of Game
 00000000 023f0000
 00000000 00000001
 00000000 00000000
@@ -9,24 +9,28 @@ Master
 00000000 00000000
 00000000 00000001
 
-Set Checksum Game
+Set Unova Link Checksum (ingame)
+//Set Unova Link Checksum to 0x10000000 while ingame; needed since Unova Link flags are XOR
 6222AE80 00000000
 0222AE80 10000000
 D2000000 00000000
 
-Set Challenge Game
+Force Unova Link difficulty to Challenge (ingame)
+//Set Unova Link's difficulty to 0x10049589 while ingame; XOR value for Challenge Mode
 6222AE80 00000000
 0222AE74 10049589
 D2000000 00000000
 
-Set Checksum Menu
+Set Unova Link Checksum (menu)
+//Set Unova Link Checksum to 0x10000000 while in the Unova Link menu; needed since Unova Link flags are XOR
 92000034 00000000
 9214C0D4 00000008
 9223B484 00000000
 02244538 10000000
 D2000000 00000000
 
-Set Challenge Menu
+Force Unova Link difficulty to Challenge (menu)
+//Set Unova Link's difficulty to 0x10049589 while in the Unova Link menu; XOR value for Challenge Mode
 92000034 00000000
 9214C0D4 00000008
 9223B484 00000000
